@@ -1,16 +1,272 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <link rel="icon" href="assets/computer-investment.svg">
+        <title>CliniVet</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--iconos fontawesome-->
+        <script src="https://kit.fontawesome.com/3e9cb3f872.js" crossorigin="anonymous"></script>
+        
+        <!--css bootstrap personalizado-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!--My CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+        
+        
     </head>
     <body>
-        <div>TODO write content</div>
-        t
+        <!--encabezado de la pagina-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">CliniVet</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="app.html">App</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactenos.jsp">Registro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="comprar.html">Comprar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modalTuto">Instrucciones</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </nav>
+        </header>
+        <!--contenido-->
+        <main id="main">
+            
+            <!--carousel-->
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/vet1.jpg" class="d-block w-100" alt="keyboard">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/vet2.jpg" class="d-block w-100" alt="cpu">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/vet3.jpg" class="d-block w-100" alt="pantallas">
+                    </div>
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 offset-md-6 text-center text-md-right ">
+                                    <h1>CliniVet</h1>
+                                    <p class="d-none d-md-block">
+                                        Somos una veterinaria  a la vanguadia
+                                    </p>
+                                    <a href="#" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modalTuto">Como funciona</a>
+                                    <a href="app.html" class="btn btn-ncc">Empezar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/carousel--> 
+        </main>
+        
+        <!--Equipo-->
+        <section id="equipo" class="mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <small>ADOPTA A UN </small>
+                        <h2>AMIGO</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/a1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">pedro hghfh</h5>
+                                <p class="card-text">.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/a2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Joel i</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/a3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cesar </h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/a4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">dd </h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/a5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">nn </h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/Equipo-->
+        
+        <!--Marcas-->
+        
+        <section id="marcas">
+            <div class='container'>
+                <div class="row">
+                    <div class='col mt-4 mb-4'>
+                        <ul class="list-unstyled">
+                            <li class="media">
+                                <img src="assets/b2.jpg" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">vacunas</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
+                            </li>
+                            <li class="media my-4">
+                                <img src="assets/b4.jpg" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">operaciones</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
+                            </li>
+                            <li class="media my-4">
+                                <img src="assets/b3.jpg" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Higiene</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
+                            </li>
+                            <li class="media">
+                                <img src="assets/b1.jpg" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">alimentacion</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <!--/Marcas-->
+        
+        <!--Formulario de contacto-->
+        
+        <section id="contacto">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center text-uppercase mt-4 mb-2">
+                        <h2>Contactanos</h2>
+                    </div>
+                </div>
+                <div class="row mt-4 offset-1">
+                    <div class="col-10 mb-4">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Direccion de Email:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Mensaje: </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-lg">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--/Formulario de contacto-->
+        
+        <!--pie de pagina-->
+        <footer class="footer pb-4 pt-4">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-lg">
+                        <a href="#">Preguntas Frecuentes</a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="#">Redes Sociales</a><br>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter">   </i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram">   </i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f">   </i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="#">Contactanos</a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="#">Equipo</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Modal-->
+        <div class="modal fade" id="modalTuto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Instrucciones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Paso 1:</span>
+                        <p>Dale click al boton empezar.</p>
+                        <span>Paso 2:</span>
+                        <p>Escoge el sevicio que se ajustan a tus preferencias.</p>
+                        <span>Paso 3:</span>
+                        <p>
+                            Despues de terminar tu seleccion de preferencias, dale click al boton procesosar y listo! podras 
+                            observar, todos lo necesario para ver a tu engreido bien, como tambien un estimado del
+                            presupuesto  asi como donde comprarlos .
+                        </p>
+                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
+                        <a class="btn btn-ncc" href="app.html">Empezar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
