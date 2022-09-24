@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="assets/computer-investment.svg">
-        <title>CliniVet</title>
+        <link rel="icon" href="assets/a2.jpg">
+        <title>PsicoFacil</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -15,14 +15,21 @@
         <link rel="stylesheet" href="css/styles.css">
         
         
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/responsive.css"> 
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+        
     </head>
     <body>
         <!--encabezado de la pagina-->
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav class="navbar navbar-expand-lg navbar-dark " id="nav11">
             <div class="container-fluid">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">CliniVet</span></a>
+                    <a class="navbar-brand" href="#">PsicoFacil</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -32,16 +39,16 @@
                                 <a class="nav-link" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="app.html">App</a>
+                                <a class="nav-link" href="app.html">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contactenos.jsp">Registro</a>
+                                <a class="nav-link" href="contactenos.jsp">Nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="comprar.html">Comprar</a>
+                                <a class="nav-link" href="comprar.html">PsicoAmigos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modalTuto">Instrucciones</a>
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modalTuto">Afiliate</a>
                             </li>
                         </ul>
                     </div>
@@ -49,6 +56,95 @@
             </div>
             </nav>
         </header>
+        <!--Slider-->
+        <div class="slideshow-container" id="home">
+   <br><br><br><br><br>
+   
+   
+    <div class="mySlides" style="margin-left: 30px;">
+        <h2>CON<br> SEJERIA<br> <span>EN ADOLESCENTES</span></h2>
+        <img src="images/slider-1.png" alt="" class="p_img">
+        <div class="p_detail">
+            <h3>PEDRO <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></h3>
+            <h4>Titulo 1</h4>
+            <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum</p>
+            <ul>
+               <li> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  Lorem ipsum dolor sit amet
+               </li>
+               <li> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  Lorem ipsum dolor sit amet
+               </li>
+            </ul>
+            <select>
+               <option value="volvo">Size</option>
+               <option value="saab">M</option>
+               <option value="opel">L</option>
+               <option value="audi">XL</option>
+               <option value="audi">XXL</option>
+            </select>
+            <a href="#">Saca tu cita</a>  <span>$190</span>
+         </div>
+    </div>
+
+   
+    <div class="mySlides">
+        <h2>TERAPIA <br> DE <br> <span>PAREJA</span></h2>
+        <img src="assets/a1.jpg" alt="" class="p_img">
+        <div class="p_detail">
+            <h3>Maria <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></h3>
+            <h4>Dictorado </h4>
+            <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum</p>
+            <ul>
+               <li> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  Lorem ipsum dolor sit amet
+               </li>
+               <li> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  Lorem ipsum dolor sit amet
+               </li>
+            </ul>
+            <select>
+               <option value="volvo">Size</option>
+               <option value="saab">M</option>
+               <option value="opel">L</option>
+               <option value="audi">XL</option>
+               <option value="audi">XXL</option>
+            </select>
+            <a href="#">Add To Cart</a>  <span>$190</span>
+         </div>
+    </div>
+  
+   
+    <div class="mySlides">
+        <h2>Test <br> PARA<br> <span>EMPRESAS</span></h2>
+        <img src="images/slider-3.png" alt="" class="p_img">
+        <div class="p_detail">
+            <h3>Daniel <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star rate" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></h3>
+            <h4>Master</h4>
+            <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum</p>
+            <ul>
+               <li> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  Lorem ipsum dolor sit amet
+               </li>
+               <li> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  Lorem ipsum dolor sit amet
+               </li>
+            </ul>
+            <select>
+               <option value="volvo">Size</option>
+               <option value="saab">M</option>
+               <option value="opel">L</option>
+               <option value="audi">XL</option>
+               <option value="audi">XXL</option>
+            </select>
+            <a href="#">Add To Cart</a>  <span>$190</span>
+         </div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+        
         <!--contenido-->
         <main id="main">
             
@@ -268,5 +364,91 @@
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+               <a id="back2Top" title="Back to top" href="#" class="smooth-scroll">&#10148;</a>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+   <script src="js/jquery.flipster.min.js"></script>
+   <script src="js/flipster-custom.js"></script>
+   <script src="js/jquery.easing.1.3.js"></script>
+<script src="js/custom.js"></script>
+  <script>
+
+        $(window).scroll(function() {
+		var scrl = $(window).scrollTop();
+		if (scrl < 60)
+		{						
+		$('.header_01').removeClass('fixedbar');
+		}					
+		else					
+		{						
+		$('.header_01').addClass('fixedbar');					
+		}				
+		});
+    </script>
+     <script>
+    
+    (function($) {
+    "use strict"; 
+	 
+	$('.anim').magnificPopup({
+		type: 'inline',
+		fixedContentPos: false,  
+		fixedBgPos: true,
+		overflowY: 'auto',
+		closeBtnInside: true,
+		preloader: false,
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-slide-bottom'
+	});
+    
+
+    
+  
+
+})(jQuery);
+      
+   /*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+}); 
+    
+    </script>
+    <script>
+              new WOW().init();
+              </script>
+              
+              <script>
+    $(function () {
+
+    $("a.smooth-scroll").click(function (event) {
+
+        event.preventDefault();
+
+        // get/return id like #about, #work, #team and etc
+        var section = $(this).attr("href");
+
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
+});
+    
+    </script>
     </body>
 </html>
