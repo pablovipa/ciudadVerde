@@ -5,7 +5,7 @@ nav img {
     color: #78FAFF;
 }
 nav{
-    background:#76B2B2;
+    background:#1b8dbb;
 }
 #nav11{
     background:#FFF8F2;
@@ -15,7 +15,7 @@ nav span {
     font-family: fantasy;
 
 }
-header .container-fluid navbar-brand a ,header .container-fluid .nav-link a{
+header > .container-fluid > navbar-brand a ,header > .container-fluid > .nav-link a{
   color: #312D33;
 }
 .cajasGaleria{
