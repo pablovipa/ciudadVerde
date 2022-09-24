@@ -159,14 +159,16 @@ ul {
     margin: auto;
     background: #d3312c url("../assets/sli.jpg") 0 0 no-repeat;
     background-size: cover;
-    height: 105vh;
+    height: 80vh;
     overflow: hidden;
 }
 
 .mySlides {
     display: none;
     position: relative;
-    padding-top: 100px;
+    top: -90px;
+    left: -20px;
+    padding-top: 1px;
 }
 
 .prev, .next {
@@ -198,11 +200,11 @@ ul {
 .mySlides h2 {
     font-size: 160px;
     text-transform: uppercase;
-    letter-spacing: 33px;
+    letter-spacing: 10px;
     font-weight: 700;
-    line-height: 1;
+    line-height: .9;
     position: absolute;
-    top: 80px;
+    top: 2px;
     left: 100px;
     z-index: 10;
     animation-duration: 1.2s;
@@ -211,10 +213,11 @@ ul {
 }
 
 .mySlides h2 span {
+    
     display: block;
-    text-align: right;
+    text-align: center;
     font-size: 22px;
-    letter-spacing: 20px;;
+    letter-spacing: 2px;;
     text-transform: capitalize;
     padding-right: 20px;
 }
@@ -222,9 +225,11 @@ ul {
 .mySlides .p_img {
     display: block;
     width: auto;
-    height: 500px;
+    height: 250px;
     position: relative;
-    z-index: 20;
+    top: 100px;
+    left: 500px;
+    z-index: 10;
     animation-duration: 1.2s;
     animation-fill-mode: both;
     animation-name: slideInRight;

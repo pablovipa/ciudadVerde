@@ -2,18 +2,21 @@
 
 nav img {
     width: 35px;
-  color: #78FAFF;
+    color: #78FAFF;
 }
 nav{
-    background: #B5B2B2;
+    background:#76B2B2;
 }
 #nav11{
-    background:#B5B2B2;
+    background:#FFF8F2;
 }
 nav span {
     /*font-weight: bold;*/
     font-family: fantasy;
-    
+
+}
+header .container-fluid navbar-brand a ,header .container-fluid .nav-link a{
+  color: #312D33;
 }
 .cajasGaleria{
     background-color: #EDF6FE;
@@ -44,7 +47,7 @@ nav span {
 #main .carousel img{
     max-height: 80vh;
     object-fit: cover;
-    
+
 }
 
 #carousel{
@@ -104,7 +107,7 @@ form span {
 .footer {
     background: linear-gradient(90deg, #325D88, #2c5379 25%, #27415b);
     /*background: #325D88;*/
-    border-color: #325D88; 
+    border-color: #325D88;
 }
 
 .footer a {
