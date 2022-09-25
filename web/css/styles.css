@@ -8,15 +8,20 @@ nav{
     background:#1b8dbb;
 }
 #nav11{
-    background:#FFF8F2;
+    background:#17a2b8;
 }
 nav span {
     /*font-weight: bold;*/
     font-family: fantasy;
 
 }
-header > .container-fluid > navbar-brand a ,header > .container-fluid > .nav-link a{
-  color: #312D33;
+
+#home .mySlides h2{
+    color: #6610f2;
+}
+/* seccion de presencialidad*/
+ #equipo >  small,h2,p{
+    color: #343a40;
 }
 .cajasGaleria{
     background-color: #EDF6FE;

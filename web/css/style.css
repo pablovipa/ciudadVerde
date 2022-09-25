@@ -145,6 +145,9 @@ body {
     color: #FFF;
     line-height: 1.5;
 }
+header  .container-fluid navbar-brand a ,header  .container-fluid  .nav-link a{
+  color: #312D33;
+}
 
 ul {
     margin: 0;
