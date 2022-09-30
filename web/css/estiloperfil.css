@@ -1,0 +1,20 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+body{
+    background-image: url(..//assets/sli.jpg);
+}
+#profile{
+    background: #cf455c;
+    background-image: url(../assets/a1.jpg);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    
+}
+.about{
+    float: left;
+    margin-top: 30px;
+    width: 490px;
+}
