@@ -25,7 +25,7 @@ ul{
     padding: 0px;
 }
 .footer-section{
-    background: var(--bg-color);
+    background : var(--bg-color);
     position:relative;   
 }
 .footer-cta{
