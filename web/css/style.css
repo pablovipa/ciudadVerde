@@ -167,7 +167,7 @@ ul {
     margin: auto;
     background: #d3312c url("../assets/fondoslid.jpg") 0 0 no-repeat;
     background-size: cover;
-    height: 65vh;
+    height: 77vh;
     overflow: hidden;
 }
 
@@ -228,7 +228,7 @@ ul {
     letter-spacing: 2px;;
     text-transform: capitalize;
     padding-right: 20px;
-    color: #506F68;
+    color: #593A27;
 }
 
 .mySlides .p_img {

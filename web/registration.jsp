@@ -39,16 +39,16 @@
 								<label for="pass"><i class="zmdi zmdi-lock"></i></label> <input
 									type="password" name="pass" id="pass" placeholder="Contraseña" />
 							</div>
-							<div class="form-group">
+                                                    <!-- comment  <div class="form-group">
 								<label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
 								<input type="password" name="re_pass" id="re_pass"
 									placeholder="Repetir password" />
-							</div>
+							
 							<div class="form-group">
 								<label for="contact"><i class="zmdi zmdi-lock-outline"></i></label>
 								<input type="text" name="contact" id="contact"
 									placeholder="numero" />
-							</div>
+							</div></div> -->
 							<div class="form-group">
 								<input type="checkbox" name="agree-term" id="agree-term"
 									class="agree-term" /> <label for="agree-term"

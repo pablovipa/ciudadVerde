@@ -35,12 +35,12 @@
                                 <div class="form-group">
                                     <label for="username"><i
                                             class="zmdi zmdi-account material-icons-name"></i></label> <input
-                                        type="text" name="username" id="username"
+                                        type="text" name="cuenta" id="username"
                                         placeholder="usuario" />
                                 </div>
                                 <div class="form-group">
                                     <label for="password"><i class="zmdi zmdi-lock"></i></label> <input
-                                        type="password" name="password" id="password"
+                                        type="password" name="clave" id="password"
                                         placeholder="Contraseña" />
                                 </div>
                                 <div class="form-group">
