@@ -1,0 +1,128 @@
+
+
+nav img {
+    width: 45px;
+    color: #78FAFF;
+}
+nav{
+    background:#1b8dbb;
+}
+#nav11{
+    background:#17a2b8;
+}
+nav span {
+    /*font-weight: bold;*/
+    font-family: fantasy;
+
+}
+
+#home .mySlides h2{
+    color: #64C6A8;
+}
+/* seccion de presencialidad*/
+ #equipo >  small,h2,p{
+    color: #343a40;
+}
+.cajasGaleria{
+    background-color: #EDF6FE;
+    width: 305px;
+    height: 295px;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #000;
+    font-size: 14px;
+}
+#contenedor{
+    height: 630px;
+    background-color: #EDF6FE;
+    margin-top: 10px;
+    text-align: justify;
+}
+.foto{
+    width: 120px;
+    height: 115px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#main .carousel img{
+    max-height: 80vh;
+    object-fit: cover;
+
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #2FA4A8;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+.btn-ncc {
+    background-color: #4b7bec;
+    color: #1b8dbb
+}
+
+.btn-ncc:hover {
+    background-color: #1984b0;
+}
+
+/*----------/Maint----------------*/
+
+/*----------App----------------*/
+
+form span {
+    font-weight: bold;
+}
+
+/*----------/App----------------*/
+
+/*--------seccion marcas--------------*/
+#marcas{
+    background-color: #27415b;
+    color: #fff;
+}
+
+#marcas img{
+    width: 110px;
+}
+
+/*--------/seccion marcas--------------*/
+
+
+
+/*----------footer----------------*/
+
+.footer {
+    background: linear-gradient(90deg, #325D88, #2c5379 25%, #27415b);
+    /*background: #325D88;*/
+    border-color: #325D88;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: None;
+}
+
+.footer a:hover {
+    color: #2FA4A8;
+    text-decoration: None;
+}
+
+/*----------/footer----------------*/
