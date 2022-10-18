@@ -18,8 +18,8 @@ public class ConectaBD {
     public static Connection con = null;
     private static String bd = "ciudadVerde";
     public static String usuario = "root";
-    public static String passw = "DIVADOLBAP96-977";
-    public static String url = "jdbc:mysql://localhost/" + bd;
+    public static String passw = "admin";
+    public static String url = "jdbc:mysql://localhost/ciudadVerde" ;
 
     public static Connection abrir() {
         try {
